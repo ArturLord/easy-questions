@@ -6,6 +6,11 @@ const Progress = styled.div`
   border-radius: 30px;
   background-color: rgb(223, 219, 219);
   margin-bottom: 25px;
+
+  @media screen and (max-width: 768px) {
+    height: 5px;
+    margin-bottom: 15px;
+  }
 `;
 
 const ProgressInner = styled.div`
@@ -19,6 +24,11 @@ const ProgressInner = styled.div`
 
 const TitleGame = styled.h1`
   text-align: center;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
 `;
 
 const ListGame = styled.ul`
@@ -36,6 +46,12 @@ const ListChild = styled.li`
 
   &:hover {
     border: 2px solid rgba(0, 0, 0, 0.3);
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
   }
 `;
 

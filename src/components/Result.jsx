@@ -12,6 +12,10 @@ const ImgRes = styled.img`
 const TitleRes = styled.h1`
   padding-bottom: 10px;
   font-size: 28px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 20px;
+  }
 `;
 
 const ResBtn = styled.button`
@@ -26,6 +30,10 @@ const ResBtn = styled.button`
   color: #fff;
   margin-top: 20px;
   cursor: pointer;
+
+  @media screen and (max-width: 768px) {
+    padding: 15px 25px;
+  }
 `;
 
 const Result = ({ correct, listQuestions }) => {

@@ -7,7 +7,7 @@ import Result from './components/Result';
 import { listQuestions } from './questions';
 
 const AppRoot = styled.div`
-  width: 500px;
+  max-width: 500px;
   border-radius: 30px;
   padding: 40px;
   background-color: #fff;
@@ -38,6 +38,29 @@ const AppRoot = styled.div`
     background-color: rgba(255, 255, 255, 0.3);
     z-index: 1;
   }
+
+  @media (max-width: 768px) {
+    max-width: 80vw;
+    padding: 20px;
+    border-radius: 15px;
+
+    &:before,
+    &:after {
+      height: 20px;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+    }
+
+    &:before {
+      width: 100%;
+      bottom: -5px;
+    }
+
+    &:after {
+      width: 95%;
+      bottom: -10px;
+    }
+  }
 `;
 
 const Logo = styled.div`
@@ -45,6 +68,11 @@ const Logo = styled.div`
   font-size: 40px;
   text-align: center;
   margin-bottom: 50px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 35px;
+    margin-bottom: 40px;
+  }
 `;
 
 const App = () => {
