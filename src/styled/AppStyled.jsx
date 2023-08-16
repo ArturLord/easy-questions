@@ -5,7 +5,6 @@ export const GlobalStyle = createGlobalStyle`
 
   html {
     background: rgb(155, 242, 200);
-    background: linear-gradient(90deg, rgba(155, 242, 200, 1) 0%, rgba(86, 180, 229, 1) 65%);
   }
 
 body {
