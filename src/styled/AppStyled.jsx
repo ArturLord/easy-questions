@@ -4,13 +4,12 @@ export const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap');
 
   html {
-    background: rgb(155, 242, 200);
+    background: linear-gradient(90deg, rgba(155, 242, 200, 1) 0%, rgba(86, 180, 229, 1) 65%);
   }
 
 body {
   margin: 0;
   font-family: 'Nunito', sans-serif;
-  background: rgb(155, 242, 200);
   background: linear-gradient(90deg, rgba(155, 242, 200, 1) 0%, rgba(86, 180, 229, 1) 65%);
   display: flex;
   align-items: center;
