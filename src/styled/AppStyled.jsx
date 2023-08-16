@@ -4,7 +4,7 @@ export const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap');
 
   html {
-    background: rgb(155, 242, 200);
+    background: rgb(86, 180, 229)
   }
 
 body {
